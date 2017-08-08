@@ -1,0 +1,92 @@
+body{
+    background-image: url(../Images/bricks.jpg);
+}
+.whiteboard_div{
+    width: 600px;
+    position: fixed;
+    top: 25px;
+    margin-left: 775px;
+}
+
+.whiteboard_img{
+    width: 100%;
+}
+
+.posters_div{
+    width: 400px;
+    position: fixed;
+    top: 25px;
+    margin-left: 100px;
+}
+
+.posters_img{
+    width: 100%;
+}
+
+.desk_div{
+    width: 1200px;
+    height: 175px;
+    overflow-y: hidden;
+    position: fixed;
+    bottom: 0;
+    margin-left: 100px;
+}
+
+.desk_img{
+    width: 100%;
+}
+
+.computer_div{
+    width: 450px;
+    height: 450px;
+    position: fixed;
+    bottom: 43px;
+    margin-left: 650px;
+}
+
+.computer_img{
+    width: 100%;
+}
+
+.speaker_left_div{
+    width: 100px;
+    height: 275px;
+    position: fixed; 
+    bottom: 38px;
+    margin-left: 540px;
+}
+.speaker_right_div{
+    width: 100px;
+    height: 275px;
+    position: fixed; 
+    bottom: 38px;
+    margin-left: 1110px;
+}
+
+.speaker_img{
+    width: 100%;
+}
+
+.lamp_div{
+    width: 200px;
+    height: 500px;
+    position: fixed; 
+    bottom: 66px;
+    margin-left: 170px;
+}
+
+.lamp_img{
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.clock_div{
+    width: 150px;
+    position: fixed; 
+    bottom: 169px;
+    margin-left: 360px;
+}
+
+.clock_img{
+    width: 100%;
+}
