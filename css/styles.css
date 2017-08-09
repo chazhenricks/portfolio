@@ -85,28 +85,47 @@ Clock
 *********/
 .clock_info {
   display: flex;
+  justify-content: space-between;
   position: fixed;
-  width: 150px;
+  width: 130px;
   height: 90px;
   bottom: 160px; }
 
-.flip-clock-left,
-.flip-clock-right {
-  display: flex; }
-
 .flip {
-  width: 120px;
-  height: 60px;
-  background-color: black;
-  border-radius: 15%;
-  margin: 0 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  height: 66px;
+  width: 29px;
+  background-color: #484244;
+  border-radius: 10%;
+  bottom: 188px;
+  position: fixed; }
 
 .time {
   color: white;
   font-family: Helvetica, Sans-serif;
-  font-size: 6em; }
+  font-size: 3em;
+  position: fixed;
+  bottom: 193px;
+  margin-left: 1px; }
+
+.line {
+  z-index: 1000;
+  height: 3px;
+  width: 29px;
+  background-color: #484244;
+  position: absolute;
+  bottom: 30px;
+  float: left; }
+
+.minute-ones {
+  margin-left: 108px; }
+
+.minute-tens {
+  margin-left: 78px; }
+
+.hour-ones {
+  margin-left: 43px; }
+
+.hour-tens {
+  margin-left: 12px; }
 
 /*# sourceMappingURL=styles.css.map */
