@@ -150,3 +150,76 @@ Clock
 .hour-tens{
     margin-left: 12px;
 }
+
+/******************
+SCREEN
+******************/
+.buttons{
+    display: flex;
+    position: fixed;
+    bottom: 469px;
+    z-index: 1000;
+    margin-left: 17px;
+}
+.bar{
+    height: 16px;
+    position: fixed;
+    bottom: 464px;
+    margin-left: 15px;
+    width: 420px;
+    background: lightgrey;
+}
+.circle {
+	width: 7px;
+	height: 7px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-right: 4px;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
+.green{
+    background: green;
+}
+.screen_content{
+    z-index: 1000;
+    width: 420px;
+    height: 230px;
+    position: fixed;
+     bottom: 235px;
+    overflow-y: auto;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info{
+    font-family: Inconsolata, monospace;
+    background: #3c3f42;
+}
+.bracket{
+ color: lightblue;
+}
+.code_text{
+ color: #ff5d00;
+}
+.string_text{
+    color: white;
+}
+.attribute{
+    color: #ffbb00;
+}
+.attribute_text{
+    color: #21773e;
+}
+a{
+    text-decoration: none;
+    color: #d781f9;
+}
