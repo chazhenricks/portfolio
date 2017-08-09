@@ -24,7 +24,7 @@ var screenHTML = `
                     <span class="attribute_text">'author'</span>
                     <span class="attribute"> content</span>
                     <span class="bracket">=</span> 
-                    <span class="attribute_text">'Chaz Henricks &lt;chazhenricks@gmail.com&gt;'</span>
+                    <span class="attribute_text">'Chaz Henricks &lt;<a href='mailto:chazhenricks@gmail.com' id="email">chazhenricks@gmail.com</a>&gt;'</span>
                     <span class="code_text">title</span>
                     <span class="bracket">></span>
                 </li>

@@ -1,9 +1,12 @@
 body {
-  background-image: url(../Images/bricks.jpg); }
+  background: #c6e4ff; }
 
-/************
+/*****************************************************************
 Desk Elements
-************/
+*****************************************************************/
+/*****************************************************************
+Whiteboard
+*****************************************************************/
 .whiteboard_div {
   width: 600px;
   position: fixed;
@@ -13,6 +16,9 @@ Desk Elements
 .whiteboard_img {
   width: 100%; }
 
+/*****************************************************************
+Posters
+*****************************************************************/
 .posters_div {
   width: 400px;
   position: fixed;
@@ -22,6 +28,9 @@ Desk Elements
 .posters_img {
   width: 100%; }
 
+/*****************************************************************
+Desk
+*****************************************************************/
 .desk_div {
   width: 1200px;
   height: 175px;
@@ -33,6 +42,9 @@ Desk Elements
 .desk_img {
   width: 100%; }
 
+/*****************************************************************
+Computer
+*****************************************************************/
 .computer_div {
   width: 450px;
   height: 450px;
@@ -42,91 +54,6 @@ Desk Elements
 
 .computer_img {
   width: 100%; }
-
-.speaker_left_div {
-  width: 100px;
-  height: 275px;
-  position: fixed;
-  bottom: 38px;
-  margin-left: 540px; }
-
-.speaker_right_div {
-  width: 100px;
-  height: 275px;
-  position: fixed;
-  bottom: 38px;
-  margin-left: 1110px; }
-
-.speaker_img {
-  width: 100%; }
-
-.lamp_div {
-  width: 200px;
-  height: 500px;
-  position: fixed;
-  bottom: 66px;
-  margin-left: 170px; }
-
-.lamp_img {
-  width: 100%;
-  transform: scaleX(-1); }
-
-.clock_div {
-  width: 150px;
-  position: fixed;
-  bottom: 169px;
-  margin-left: 360px; }
-
-.clock_img {
-  width: 100%; }
-
-/*********
-Clock
-*********/
-.clock_info {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  width: 130px;
-  height: 90px;
-  bottom: 160px; }
-
-.flip {
-  height: 66px;
-  width: 29px;
-  background-color: #484244;
-  border-radius: 10%;
-  bottom: 188px;
-  position: fixed; }
-
-.time {
-  color: white;
-  font-family: Helvetica, Sans-serif;
-  font-size: 3em;
-  position: fixed;
-  bottom: 193px;
-  margin-left: 1px; }
-
-.line {
-  z-index: 1000;
-  height: 3px;
-  width: 29px;
-  background-color: #484244;
-  position: absolute;
-  bottom: 30px;
-  float: left; }
-
-.minute-ones {
-  margin-left: 108px; }
-
-.minute-tens {
-  margin-left: 78px; }
-
-.hour-ones {
-  margin-left: 43px; }
-
-.hour-tens {
-  margin-left: 12px; }
 
 /******************
 SCREEN
@@ -199,5 +126,102 @@ ol {
 a {
   text-decoration: none;
   color: #d781f9; }
+
+#email {
+  color: #21773e; }
+
+/*****************************************************************
+Speakers
+*****************************************************************/
+.speaker_left_div {
+  width: 100px;
+  height: 275px;
+  position: fixed;
+  bottom: 38px;
+  margin-left: 540px; }
+
+.speaker_right_div {
+  width: 100px;
+  height: 275px;
+  position: fixed;
+  bottom: 38px;
+  margin-left: 1110px; }
+
+.speaker_img {
+  width: 100%; }
+
+/*****************************************************************
+Lamp
+*****************************************************************/
+.lamp_div {
+  width: 200px;
+  height: 500px;
+  position: fixed;
+  bottom: 66px;
+  margin-left: 170px; }
+
+.lamp_img {
+  width: 100%;
+  transform: scaleX(-1); }
+
+/*****************************************************************
+Clock
+*****************************************************************/
+.clock_div {
+  width: 150px;
+  position: fixed;
+  bottom: 169px;
+  margin-left: 360px; }
+
+.clock_img {
+  width: 100%; }
+
+/******************
+Clock Numbers
+******************/
+.clock_info {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 130px;
+  height: 90px;
+  bottom: 160px; }
+
+.flip {
+  height: 66px;
+  width: 29px;
+  background-color: #484244;
+  border-radius: 10%;
+  bottom: 188px;
+  position: fixed; }
+
+.time {
+  color: white;
+  font-family: Helvetica, Sans-serif;
+  font-size: 3em;
+  position: fixed;
+  bottom: 193px;
+  margin-left: 1px; }
+
+.line {
+  z-index: 1000;
+  height: 3px;
+  width: 29px;
+  background-color: #484244;
+  position: absolute;
+  bottom: 30px;
+  float: left; }
+
+.minute-ones {
+  margin-left: 108px; }
+
+.minute-tens {
+  margin-left: 78px; }
+
+.hour-ones {
+  margin-left: 43px; }
+
+.hour-tens {
+  margin-left: 12px; }
 
 /*# sourceMappingURL=styles.css.map */
