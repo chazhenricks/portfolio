@@ -1,6 +1,9 @@
 body {
   background-image: url(../Images/bricks.jpg); }
 
+/************
+Desk Elements
+************/
 .whiteboard_div {
   width: 600px;
   position: fixed;
@@ -76,5 +79,34 @@ body {
 
 .clock_img {
   width: 100%; }
+
+/*********
+Clock
+*********/
+.clock_info {
+  display: flex;
+  position: fixed;
+  width: 150px;
+  height: 90px;
+  bottom: 160px; }
+
+.flip-clock-left,
+.flip-clock-right {
+  display: flex; }
+
+.flip {
+  width: 120px;
+  height: 60px;
+  background-color: black;
+  border-radius: 15%;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.time {
+  color: white;
+  font-family: Helvetica, Sans-serif;
+  font-size: 6em; }
 
 /*# sourceMappingURL=styles.css.map */
