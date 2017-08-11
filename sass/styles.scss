@@ -16,6 +16,10 @@ Whiteboard
     margin-left: 775px;
 }
 
+#canvas{
+    z-index: 10;
+    background-color: #F2F2F2;
+}
 .whiteboard_img{
     width: 100%;
 }
@@ -45,6 +49,7 @@ Desk
     position: fixed;
     bottom: 0;
     margin-left: 100px;
+    z-index: 100;
 }
 
 .desk_img{
@@ -59,7 +64,8 @@ Computer
     height: 450px;
     position: fixed;
     bottom: 43px;
-    margin-left: 650px;
+    margin-left: 650px; 
+    z-index: 100;
 }
 
 .computer_img{
@@ -101,7 +107,7 @@ SCREEN
     background: green;
 }
 .screen_content{
-    z-index: 1000;
+    z-index: 100;
     width: 420px;
     height: 230px;
     position: fixed;
@@ -141,6 +147,20 @@ a{
     color: #21773e;
 }
 
+/******************
+Youtube
+******************/
+
+#player{
+    position: fixed;
+    z-index: 10000;
+    bottom: 235px;
+    margin-left: 15px;
+}
+.hidden{
+    display: none;
+}
+
 /*****************************************************************
 Speakers
 *****************************************************************/
@@ -150,6 +170,10 @@ Speakers
     position: fixed; 
     bottom: 38px;
     margin-left: 540px;
+}
+
+.speaker_left_div:hover{
+    cursor: pointer;
 }
 .speaker_right_div{
     width: 100px;
@@ -172,12 +196,28 @@ Lamp
     position: fixed; 
     bottom: 66px;
     margin-left: 170px;
+    z-index: 100;
 }
 
 .lamp_img{
     width: 100%;
     transform: scaleX(-1);
 }
+
+.lamp_img:hover{
+    cursor: pointer;
+}
+
+.lamp_light{
+    position: fixed;
+    z-index: 1;
+    top: 288px;
+    margin-left: 300px;
+    width: 900px;
+    height: 900px;
+    background: radial-gradient(ellipse farthest-corner at 10% 10%,rgba(255,232,28,0.7) 3%, rgba(255, 232, 28, 0.2) 20%, rgba(255,232,28,0) 95%);
+    }
+
 
 /*****************************************************************
 Clock

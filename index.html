@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<div class="whiteboard_div">
+    <!-- <canvas id="canvas" class="canvas"></canvas> -->
+    <div class="whiteboard_div">
     <img src="Images/Whiteboard.png" class="whiteboard_img">
 </div>
 
@@ -21,6 +22,7 @@
     <img src="Images/Desk.png" class="desk_img">
 </div>
 <div class="computer_div">
+    <div id="player" class="hidden"></div>
     <div class="headerbar">
         <div class="bar"></div> 
         <div class="buttons">
@@ -42,8 +44,8 @@
 
 <div class="lamp_div">
     <img src="Images/Lamp.png" class="lamp_img">
-    <div class="light"></div>
 </div>
+<div class="lamp_light hidden"></div>
 
 <div class="clock_div">
     <div class="clock_info"></div>
@@ -51,11 +53,15 @@
 </div>
 
 
-<!-- SCRIPTS -->
-<script src="js/clock.js"></script>
-<script src="js/screen.js"></script>
 
 <!-- Jquery -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+<!-- SCRIPTS -->
+<script src="js/clock.js"></script>
+<script src="js/screen.js"></script>
+<script src="js/youtube.js"></script>
+<script src="js/light.js"></script>
+<!-- <script src="js/canvas.js"></script> -->
 </body>
 </html>
