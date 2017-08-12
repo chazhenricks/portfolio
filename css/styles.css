@@ -194,9 +194,9 @@ Lamp
   z-index: 1;
   top: 288px;
   margin-left: 300px;
-  width: 900px;
-  height: 900px;
-  background: radial-gradient(ellipse farthest-corner at 10% 10%, rgba(255, 232, 28, 0.7) 3%, rgba(255, 232, 28, 0.2) 20%, rgba(255, 232, 28, 0) 95%); }
+  width: 800px;
+  height: 340px;
+  background: radial-gradient(circle at top left, rgba(255, 232, 28, 0.7) 3%, rgba(255, 232, 28, 0.2) 20%, rgba(255, 232, 28, 0) 95%); }
 
 /*****************************************************************
 Clock
