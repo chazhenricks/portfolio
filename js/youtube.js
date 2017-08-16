@@ -28,3 +28,15 @@ $(".speaker_left_div").click(function(){
             player.destroy();
         }
     }
+
+    $("#exit_button").click(function(){
+        var playerNumber;
+        if(player == undefined){
+            return;
+        }else{
+            playerNumber = player.getPlayerState();
+            if(playerNumber == 1){
+                player.destroy();
+            }
+        }
+    });
