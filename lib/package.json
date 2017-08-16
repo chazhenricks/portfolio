@@ -16,7 +16,9 @@
     "url": "https://github.com/chazhenricks/portfolio/issues"
   },
   "homepage": "https://github.com/chazhenricks/portfolio#readme",
-  "dependencies": {},
+  "dependencies": {
+    "typed.js": "^2.0.5"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-concat": "^1.0.1",
