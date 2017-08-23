@@ -5,52 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chaz Henricks</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- <canvas id="canvas" class="canvas"></canvas> -->
+<div id="main">
     <div class="whiteboard_div">
     <img src="Images/Whiteboard.png" class="whiteboard_img">
-</div>
-
-<div class="posters_div">
-    <img src="Images/4Posters.png" class="posters_img">
-</div>
-
-
-<div class="desk_div">
-    <img src="Images/Desk.png" class="desk_img">
-</div>
-<div class="computer_div">
-    <div id="player" class="hidden"></div>
-    <div class="headerbar">
-        <div class="bar"></div> 
-        <div class="buttons">
-            <div class="circle red" id="exit_button"></div>
-            <div class="circle yellow"></div>
-            <div class="circle green"></div>
-        </div>
     </div>
-    <div class="screen_content"></div>
-    <img src="Images/Computer.png" class="computer_img">
+
+
+    <div class="posters_div">
+        <img src="Images/4Posters.png" class="posters_img">
+    </div>
+
+
+    <div class="desk_div">
+        <img src="Images/Desk.png" class="desk_img">
+    </div>
+    <div class="computer_div">
+        <div id="player" class="hidden"></div>
+        <div class="headerbar">
+            <div class="bar"></div> 
+            <div class="buttons">
+                <div class="circle red" id="exit_button"></div>
+                <div class="circle yellow"></div>
+                <div class="circle green"></div>
+            </div>
+        </div>
+        <div class="screen_content"></div>
+        <img src="Images/Computer.png" class="computer_img">
+    </div>
+
+    <div class="speaker_left_div">
+        <img src="Images/Speaker.png" class="speaker_img">
+    </div>
+    <div class="speaker_right_div">
+        <img src="Images/Speaker.png" class="speaker_img">
+    </div>
+
+    <div class="lamp_div">
+        <img src="Images/Lamp.png" class="lamp_img">
+    </div>
+    <div class="lamp_light hidden"></div>
+
+    <div class="clock_div">
+        <div class="clock_info"></div>
+        <img src="Images/Clock.png" class="clock_img">
+    </div>
 </div>
 
-<div class="speaker_left_div">
-    <img src="Images/Speaker.png" class="speaker_img">
-</div>
-<div class="speaker_right_div">
-    <img src="Images/Speaker.png" class="speaker_img">
-</div>
-
-<div class="lamp_div">
-    <img src="Images/Lamp.png" class="lamp_img">
-</div>
-<div class="lamp_light hidden"></div>
-
-<div class="clock_div">
-    <div class="clock_info"></div>
-    <img src="Images/Clock.png" class="clock_img">
-</div>
+<div id="about_me" class="hidden"><div>
 
 
 <audio id ="lamp_noise" src="Noises/switch.mp3"></audio>
@@ -63,6 +69,7 @@
 <script src="js/screen.js"></script>
 <script src="js/youtube.js"></script>
 <script src="js/light.js"></script>
+<script src="js/aboutpage.js"></script>
 
 
 </body>
