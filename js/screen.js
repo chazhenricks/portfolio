@@ -55,11 +55,21 @@ var screenHTML = `
                     <span class="bracket"><</span>
                     <span class="code_text">h1</span>
                     <span class="bracket">></span>
-                    <span class="string_text">Here are some personal projects</span>
+                    <span id="about_me_link" class="string_text">Learn More About Me!</span>
                     <span class="bracket">< /</span>
                     <span class="code_text">h1</span>
                     <span class="bracket">></span>
                 </li>
+                <li>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <span class="bracket"><</span>
+                <span class="code_text">h2</span>
+                <span class="bracket">></span>
+                <span class="string_text">Here are some personal projects</span>
+                <span class="bracket">< /</span>
+                <span class="code_text">h2</span>
+                <span class="bracket">></span>
+            </li>
                 <li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
                     <span class="bracket"><</span>

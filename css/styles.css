@@ -258,4 +258,123 @@ Clock Numbers
 .hour-tens {
   margin-left: 12px; }
 
+/*****************************************************************
+About Page
+*****************************************************************/
+#about_me {
+  z-index: 100000; }
+
+body {
+  background-color: #c6e4ff; }
+
+h3 {
+  margin-top: 0; }
+
+header {
+  background-color: #92dbb2;
+  width: 1200px;
+  border-top-right-radius: 40px;
+  margin: 30px auto 0 auto; }
+
+.about_picture {
+  width: 500px;
+  float: left;
+  margin: 30px; }
+
+.about_bio {
+  clear: right; }
+
+.about_header_text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  text-align: center; }
+
+.about_bio_text {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+  padding: 0 30px; }
+
+.top_bio_text {
+  margin-top: 15px; }
+
+section {
+  background-color: #f78e04;
+  width: 1200px;
+  margin: 0 auto; }
+
+.about_tech_header,
+.about_projects_header {
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2em; }
+
+.about_tech {
+  background-color: #ffff00; }
+
+.icons {
+  margin: 0 auto 0 auto;
+  padding-bottom: 30px;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+i {
+  font-size: 3em; }
+
+.about_shows_title,
+.about_backend_title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: black;
+  padding-left: 10px; }
+
+a {
+  text-decoration: none; }
+
+.about_shows_info,
+.about_backend_info {
+  padding: 10px 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 1.5em;
+  margin-bottom: 0; }
+
+footer {
+  background-color: #a757f2;
+  width: 1200px;
+  border-bottom-left-radius: 40px;
+  margin: 0 auto 30px auto; }
+
+.footer_title {
+  margin-top: 0;
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2em; }
+
+.about_contact_icons_div {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 900px;
+  display: flex;
+  justify-content: center; }
+
+.about_contact_icon {
+  height: 100px;
+  width: 100px;
+  padding: 10px 30px; }
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both; }
+
 /*# sourceMappingURL=styles.css.map */

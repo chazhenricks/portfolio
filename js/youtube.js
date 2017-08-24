@@ -1,18 +1,29 @@
 "use strict";    
 
 $(".speaker_left_div").click(function(){
+        if(player != undefined){
+            console.log(player);
+            player.destroy();
+        }
+        newPlayer('L_jWHffIx5E');
+});
+
+
+
+
+    function newPlayer(vidID){
         $("#player").removeClass("hidden");
         player = new YT.Player('player', {
-            width : '427px',
+            width : '420px',
             height : '230px',
-            videoId : 'L_jWHffIx5E',
+            videoId : vidID,
             playerVars: { 'autoplay': 1 },
             events : {
                 'onReady' : onPlayerReady,
                 'onStateChange' : onPlayerStateChange
             }
         });
-    });
+    }
 
     var tag = document.createElement('script');
     tag.src = "https://www.youtube.com/iframe_api";
@@ -29,14 +40,10 @@ $(".speaker_left_div").click(function(){
         }
     }
 
-    $("#exit_button").click(function(){
-        var playerNumber;
-        if(player == undefined){
-            return;
-        }else{
-            playerNumber = player.getPlayerState();
-            if(playerNumber == 1){
-                player.destroy();
-            }
-        }
-    });
+$("#exit_button").click(function(){
+    if(player == undefined){
+        return;
+    }else{
+        player.destroy();
+    }
+});
