@@ -2,287 +2,27 @@ body {
   background: #c6e4ff; }
 
 /*****************************************************************
-Desk Elements
-*****************************************************************/
-/*****************************************************************
-Whiteboard
-*****************************************************************/
-.whiteboard_div {
-  width: 600px;
-  position: fixed;
-  top: 25px;
-  margin-left: 775px; }
-
-#canvas {
-  z-index: 10;
-  background-color: #F2F2F2; }
-
-.whiteboard_img {
-  width: 100%; }
-
-/*****************************************************************
-Posters
-*****************************************************************/
-.posters_div {
-  width: 400px;
-  position: fixed;
-  top: 25px;
-  margin-left: 100px; }
-
-.posters_img {
-  width: 100%; }
-
-/*****************************************************************
-Desk
-*****************************************************************/
-.desk_div {
-  width: 1200px;
-  height: 175px;
-  overflow-y: hidden;
-  position: fixed;
-  bottom: 0;
-  margin-left: 100px;
-  z-index: 100; }
-
-.desk_img {
-  width: 100%; }
-
-/*****************************************************************
-Computer
-*****************************************************************/
-.computer_div {
-  width: 450px;
-  height: 450px;
-  position: fixed;
-  bottom: 43px;
-  margin-left: 650px;
-  z-index: 100; }
-
-.computer_img {
-  width: 100%; }
-
-/******************
-SCREEN
-******************/
-.buttons {
-  display: flex;
-  position: fixed;
-  bottom: 469px;
-  z-index: 1000;
-  margin-left: 17px; }
-
-.bar {
-  height: 16px;
-  position: fixed;
-  bottom: 464px;
-  margin-left: 15px;
-  width: 420px;
-  background: lightgrey; }
-
-.circle {
-  width: 7px;
-  height: 7px;
-  -moz-border-radius: 50px;
-  -webkit-border-radius: 50px;
-  border-radius: 50px;
-  margin-right: 4px; }
-
-.red {
-  background: red; }
-
-.yellow {
-  background: yellow; }
-
-.green {
-  background: green; }
-
-.screen_content {
-  z-index: 100;
-  width: 420px;
-  height: 230px;
-  position: fixed;
-  bottom: 235px;
-  overflow-y: auto;
-  margin-left: 15px;
-  border-radius: 2px; }
-
-ol {
-  margin-top: 0;
-  margin-bottom: 0; }
-
-.info {
-  font-family: Inconsolata, monospace;
-  background: #3c3f42; }
-
-.bracket {
-  color: lightblue; }
-
-.code_text {
-  color: #ff5d00; }
-
-.string_text {
-  color: white; }
-
-.attribute {
-  color: #ffbb00; }
-
-.attribute_text {
-  color: #21773e; }
-
-a {
-  text-decoration: none;
-  color: #d781f9; }
-
-#email {
-  color: #21773e; }
-
-/******************
-Youtube
-******************/
-#player {
-  position: fixed;
-  z-index: 10000;
-  bottom: 235px;
-  margin-left: 15px; }
-
-.hidden {
-  display: none; }
-
-/*****************************************************************
-Speakers
-*****************************************************************/
-.speaker_left_div {
-  width: 100px;
-  height: 275px;
-  position: fixed;
-  bottom: 38px;
-  margin-left: 540px; }
-
-.speaker_left_div:hover {
-  cursor: pointer; }
-
-.speaker_right_div {
-  width: 100px;
-  height: 275px;
-  position: fixed;
-  bottom: 38px;
-  margin-left: 1110px; }
-
-.speaker_img {
-  width: 100%; }
-
-/*****************************************************************
-Lamp
-*****************************************************************/
-.lamp_div {
-  width: 200px;
-  height: 500px;
-  position: fixed;
-  bottom: 66px;
-  margin-left: 170px;
-  z-index: 100; }
-
-.lamp_img {
-  width: 100%;
-  transform: scaleX(-1); }
-
-.lamp_img:hover {
-  cursor: pointer; }
-
-.lamp_light {
-  position: fixed;
-  z-index: 1;
-  top: 288px;
-  margin-left: 300px;
-  width: 800px;
-  height: 340px;
-  background: radial-gradient(circle at top left, rgba(255, 232, 28, 0.7) 3%, rgba(255, 232, 28, 0.2) 20%, rgba(255, 232, 28, 0) 95%); }
-
-/*****************************************************************
-Clock
-*****************************************************************/
-.clock_div {
-  width: 150px;
-  position: fixed;
-  bottom: 169px;
-  margin-left: 360px; }
-
-.clock_img {
-  width: 100%; }
-
-/******************
-Clock Numbers
-******************/
-.clock_info {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  width: 130px;
-  height: 90px;
-  bottom: 160px; }
-
-.flip {
-  height: 66px;
-  width: 29px;
-  background-color: #484244;
-  border-radius: 10%;
-  bottom: 188px;
-  position: fixed; }
-
-.time {
-  color: white;
-  font-family: Helvetica, Sans-serif;
-  font-size: 3em;
-  position: fixed;
-  bottom: 193px;
-  margin-left: 1px; }
-
-.line {
-  z-index: 1000;
-  height: 3px;
-  width: 29px;
-  background-color: #484244;
-  position: absolute;
-  bottom: 30px;
-  float: left; }
-
-.minute-ones {
-  margin-left: 108px; }
-
-.minute-tens {
-  margin-left: 78px; }
-
-.hour-ones {
-  margin-left: 43px; }
-
-.hour-tens {
-  margin-left: 12px; }
-
-/*****************************************************************
 About Page
 *****************************************************************/
-#about_me {
-  z-index: 100000; }
+#main {
+  display: none; }
 
-body {
-  background-color: #c6e4ff; }
+#about_me {
+  width: 100%; }
 
 h3 {
   margin-top: 0; }
 
 header {
   background-color: #92dbb2;
-  width: 1200px;
-  border-top-right-radius: 40px;
-  margin: 30px auto 0 auto; }
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 .about_picture {
-  width: 500px;
-  float: left;
-  margin: 30px; }
-
-.about_bio {
-  clear: right; }
+  width: 85%; }
 
 .about_header_text {
   font-family: 'Raleway', sans-serif;
@@ -294,7 +34,7 @@ header {
   text-align: left;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 0 30px; }
 
 .top_bio_text {
@@ -302,8 +42,9 @@ header {
 
 section {
   background-color: #f78e04;
-  width: 1200px;
-  margin: 0 auto; }
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
 
 .about_tech_header,
 .about_projects_header {
@@ -318,9 +59,9 @@ section {
 
 .icons {
   margin: 0 auto 0 auto;
-  padding-bottom: 30px;
-  width: 900px;
+  padding: 0 10px 30px 10px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around; }
 
@@ -343,13 +84,12 @@ a {
   padding: 10px 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  font-size: 1.5em;
+  font-size: 0.95em;
   margin-bottom: 0; }
 
 footer {
   background-color: #a757f2;
-  width: 1200px;
-  border-bottom-left-radius: 40px;
+  width: 100%;
   margin: 0 auto 30px auto; }
 
 .footer_title {
@@ -363,18 +103,310 @@ footer {
 .about_contact_icons_div {
   margin: 0 auto;
   padding-bottom: 30px;
-  width: 900px;
   display: flex;
-  justify-content: center; }
+  justify-content: space-around;
+  align-items: center; }
 
 .about_contact_icon {
-  height: 100px;
-  width: 100px;
-  padding: 10px 30px; }
+  height: 50px;
+  width: 50px; }
 
 .clearfix {
   content: "";
   display: table;
   clear: both; }
+
+/*****************************************************************
+Media Queries
+*****************************************************************/
+@media screen and (min-width: 550px) {
+  header {
+    display: block; }
+
+  .about_picture {
+    width: 55%;
+    float: left;
+    padding: 20px; }
+
+  .about_bio_text {
+    margin-bottom: 0;
+    padding-bottom: 20px; } }
+@media screen and (min-width: 800px) {
+  .about_bio_text,
+  .about_shows_info,
+  .about_backend_info {
+    font-size: 1.5em; }
+
+  .about_contact_icon {
+    height: 100px;
+    width: 100px; } }
+@media screen and (min-width: 1200px) {
+  #main {
+    display: block; }
+
+  #about_me {
+    display: none;
+    width: 1000px;
+    margin: 30px auto;
+    z-index: 1000; }
+
+  header {
+    border-top-right-radius: 40px; }
+
+  footer {
+    border-bottom-left-radius: 40px; }
+
+     /*****************************************************************
+Desk Elements
+*****************************************************************/
+  /*****************************************************************
+  Whiteboard
+  *****************************************************************/
+  .whiteboard_div {
+    width: 600px;
+    position: fixed;
+    top: 25px;
+    right: 50px; }
+
+  .whiteboard_img {
+    width: 100%; }
+
+  /*****************************************************************
+  Posters
+  *****************************************************************/
+  .posters_div {
+    width: 400px;
+    position: fixed;
+    top: 25px;
+    margin-left: 100px; }
+
+  .posters_img {
+    width: 100%; }
+
+  /*****************************************************************
+  Desk
+  *****************************************************************/
+  .desk_div {
+    width: 1200px;
+    height: 175px;
+    overflow-y: hidden;
+    position: fixed;
+    bottom: 0;
+    margin-left: 100px;
+    z-index: 100; }
+
+  .desk_img {
+    width: 100%; }
+
+  /*****************************************************************
+  Computer
+  *****************************************************************/
+  .computer_div {
+    width: 450px;
+    height: 450px;
+    position: fixed;
+    bottom: 43px;
+    margin-left: 650px;
+    z-index: 100; }
+
+  .computer_img {
+    width: 100%; }
+
+  /******************
+  SCREEN
+  ******************/
+  .buttons {
+    display: flex;
+    position: fixed;
+    bottom: 469px;
+    z-index: 1000;
+    margin-left: 17px; }
+
+  .bar {
+    height: 16px;
+    position: fixed;
+    bottom: 464px;
+    margin-left: 15px;
+    width: 420px;
+    background: lightgrey; }
+
+  .circle {
+    width: 7px;
+    height: 7px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-right: 4px; }
+
+  .red {
+    background: red; }
+
+  .yellow {
+    background: yellow; }
+
+  .green {
+    background: green; }
+
+  .screen_content {
+    z-index: 100;
+    width: 420px;
+    height: 230px;
+    position: fixed;
+    bottom: 235px;
+    overflow-y: auto;
+    margin-left: 15px;
+    border-radius: 2px; }
+
+  ol {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+  .info {
+    font-family: Inconsolata, monospace;
+    background: #3c3f42; }
+
+  .bracket {
+    color: lightblue; }
+
+  .code_text {
+    color: #ff5d00; }
+
+  .string_text {
+    color: white; }
+
+  .attribute {
+    color: #ffbb00; }
+
+  .attribute_text {
+    color: #21773e; }
+
+  a {
+    text-decoration: none;
+    color: #d781f9; }
+
+  #email {
+    color: #21773e; }
+
+  /******************
+  Youtube
+  ******************/
+  #player {
+    position: fixed;
+    z-index: 10000;
+    bottom: 235px;
+    margin-left: 15px; }
+
+  .hidden {
+    display: none; }
+
+  /*****************************************************************
+  Speakers
+  *****************************************************************/
+  .speaker_left_div {
+    width: 100px;
+    height: 275px;
+    position: fixed;
+    bottom: 38px;
+    margin-left: 540px; }
+
+  .speaker_left_div:hover {
+    cursor: pointer; }
+
+  .speaker_right_div {
+    width: 100px;
+    height: 275px;
+    position: fixed;
+    bottom: 38px;
+    margin-left: 1110px; }
+
+  .speaker_img {
+    width: 100%; }
+
+  /*****************************************************************
+  Lamp
+  *****************************************************************/
+  .lamp_div {
+    width: 200px;
+    height: 500px;
+    position: fixed;
+    bottom: 66px;
+    margin-left: 170px;
+    z-index: 100; }
+
+  .lamp_img {
+    width: 100%;
+    transform: scaleX(-1); }
+
+  .lamp_img:hover {
+    cursor: pointer; }
+
+  .lamp_light {
+    position: fixed;
+    z-index: 1;
+    top: 288px;
+    margin-left: 300px;
+    width: 800px;
+    height: 340px;
+    background: radial-gradient(circle at top left, rgba(255, 232, 28, 0.7) 3%, rgba(255, 232, 28, 0.2) 20%, rgba(255, 232, 28, 0) 95%); }
+
+  /*****************************************************************
+  Clock
+  *****************************************************************/
+  .clock_div {
+    width: 150px;
+    position: fixed;
+    bottom: 169px;
+    margin-left: 360px; }
+
+  .clock_img {
+    width: 100%; }
+
+  /******************
+  Clock Numbers
+  ******************/
+  .clock_info {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 130px;
+    height: 90px;
+    bottom: 160px; }
+
+  .flip {
+    height: 66px;
+    width: 29px;
+    background-color: #484244;
+    border-radius: 10%;
+    bottom: 188px;
+    position: fixed; }
+
+  .time {
+    color: white;
+    font-family: Helvetica, Sans-serif;
+    font-size: 3em;
+    position: fixed;
+    bottom: 193px;
+    margin-left: 1px; }
+
+  .line {
+    z-index: 1000;
+    height: 3px;
+    width: 29px;
+    background-color: #484244;
+    position: absolute;
+    bottom: 30px;
+    float: left; }
+
+  .minute-ones {
+    margin-left: 108px; }
+
+  .minute-tens {
+    margin-left: 78px; }
+
+  .hour-ones {
+    margin-left: 43px; }
+
+  .hour-tens {
+    margin-left: 12px; } }
 
 /*# sourceMappingURL=styles.css.map */
