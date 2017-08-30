@@ -5,7 +5,7 @@ $(".speaker_left_div").click(function(){
             console.log(player);
             player.destroy();
         }
-        newPlayer('dQw4w9WgXcQ');
+        newPlayer('L_jWHffIx5E');
 });
 
 
