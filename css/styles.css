@@ -1,6 +1,9 @@
 body {
   background: #c6e4ff; }
 
+#x_button {
+  display: none; }
+
 /*****************************************************************
 About Page
 *****************************************************************/
@@ -120,6 +123,9 @@ footer {
 Media Queries
 *****************************************************************/
 @media screen and (min-width: 550px) {
+  #main {
+    display: none; }
+
   header {
     display: block; }
 
@@ -132,6 +138,12 @@ Media Queries
     margin-bottom: 0;
     padding-bottom: 20px; } }
 @media screen and (min-width: 800px) {
+  #main {
+    display: none; }
+
+  #about_me {
+    display: block; }
+
   .about_bio_text,
   .about_shows_info,
   .about_backend_info {
@@ -155,6 +167,14 @@ Media Queries
 
   footer {
     border-bottom-left-radius: 40px; }
+
+  #x_button {
+    display: block;
+    position: absolute;
+    top: 7;
+    margin-left: 1100px;
+    height: 30px;
+    width: 30px; }
 
      /*****************************************************************
 Desk Elements
@@ -287,6 +307,9 @@ Desk Elements
   #email {
     color: #21773e; }
 
+  #about_me_link {
+    cursor: pointer; }
+
   /******************
   Youtube
   ******************/
@@ -407,6 +430,9 @@ Desk Elements
     margin-left: 43px; }
 
   .hour-tens {
-    margin-left: 12px; } }
+    margin-left: 12px; }
+
+  .hidden {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
