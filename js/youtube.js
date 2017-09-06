@@ -5,7 +5,7 @@ $(".speaker_left_div").click(function(){
             console.log(player);
             player.destroy();
         }
-        newPlayer('L_jWHffIx5E');
+        newPlayer('L_jWHffIx5E?t=34');
 });
 
 
@@ -44,6 +44,7 @@ $("#exit_button").click(function(){
     if(player == undefined){
         return;
     }else{
-        player.destroy();
+        $('#player').addClass('hidden');
     }
+    debugger;
 });

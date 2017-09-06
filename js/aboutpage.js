@@ -4,6 +4,9 @@ function showAboutMe(){
     $("#about_me").css('display','block');
 }
 
+
+
+
 function backToHome(){
     $('#main').css('display','block');
     $("#about_me").css('display', 'none');
