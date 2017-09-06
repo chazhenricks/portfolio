@@ -2,7 +2,6 @@
 
 $(".speaker_left_div").click(function(){
         if(player != undefined){
-            console.log(player);
             player.destroy();
         }
         newPlayer('L_jWHffIx5E?t=34');
