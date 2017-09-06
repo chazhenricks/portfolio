@@ -31,7 +31,7 @@ $(".speaker_left_div").click(function(){
 
     var player;
     function onPlayerReady(event) {
-        //event.target.playVideo();
+        event.target.playVideo();
     }
     function onPlayerStateChange(event) {
         if(event.data == YT.PlayerState.ENDED) {
@@ -43,6 +43,7 @@ $("#exit_button").click(function(){
     if(player == undefined){
         return;
     }else{
+        player.stopVideo();
         $('#player').addClass('hidden');
     }
 
