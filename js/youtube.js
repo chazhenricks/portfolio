@@ -46,5 +46,5 @@ $("#exit_button").click(function(){
     }else{
         $('#player').addClass('hidden');
     }
-    debugger;
+
 });
