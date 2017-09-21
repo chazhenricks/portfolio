@@ -91,7 +91,7 @@ var screenHTML = `
                     <span class="bracket"><</span>
                     <span class="code_text">li</span>
                     <span class="bracket">></span>
-                    <a href="" class="link_text">Backend Capstone</a>
+                    <a href="https://github.com/chazhenricks/Design-Hub" class="link_text">Backend Capstone</a>
                     <span class="bracket">< /</span>
                     <span class="code_text">li</span>
                     <span class="bracket">></span>
@@ -101,7 +101,7 @@ var screenHTML = `
                     <span class="bracket"><</span>
                     <span class="code_text">li</span>
                     <span class="bracket">></span>
-                    <a href="https://chazhenricks.github.io/BasicJSDrumkit/" target="_blank" class="link_text">Play Drums!</a>
+                    <a href="https://chazhenricks.github.io/ng-todo-demo/#!/" target="_blank" class="link_text">To Do List</a>
                     <span class="bracket">< /</span>
                     <span class="code_text">li</span>
                     <span class="bracket">></span>
