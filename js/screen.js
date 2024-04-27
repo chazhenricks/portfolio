@@ -55,7 +55,7 @@ var screenHTML = `
                     <span class="bracket"><</span>
                     <span class="code_text">h1</span>
                     <span class="bracket">></span>
-                    <a href="../shit" class="string_text">Some Shit I've Written</span>
+                    <a href="../shit.html" class="string_text">Some Shit I've Written</span>
                     <span class="bracket">< /</span>
                     <span class="code_text">h1</span>
                     <span class="bracket">></span>
