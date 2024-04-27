@@ -1,20 +1,25 @@
 body {
-  background: #c6e4ff; }
+  background: #c6e4ff;
+}
 
 #x_button {
-  display: none; }
+  display: none;
+}
 
 /*****************************************************************
 About Page
 *****************************************************************/
 #main {
-  display: none; }
+  display: none;
+}
 
 #about_me {
-  width: 100%; }
+  width: 100%;
+}
 
 h3 {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 header {
   background-color: #92dbb2;
@@ -22,43 +27,51 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .about_picture {
-  width: 85%; }
+  width: 85%;
+}
 
 .about_header_text {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   margin-bottom: 0;
-  text-align: center; }
+  text-align: center;
+}
 
 .about_bio_text {
   text-align: left;
   font-family: "Raleway", sans-serif;
   font-weight: 100;
   font-size: 1em;
-  padding: 0 30px; }
+  padding: 0 30px;
+}
 
 .top_bio_text {
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 
 section {
   background-color: #f78e04;
   width: 100%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .about_tech_header,
 .about_projects_header {
   padding-top: 30px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .about_tech {
-  background-color: #ffff00; }
+  background-color: #ffff00;
+}
 
 .icons {
   margin: 0 auto 0 auto;
@@ -66,107 +79,133 @@ section {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+}
 
 i {
-  font-size: 3em; }
+  font-size: 3em;
+}
 
 .about_shows_title,
 .about_backend_title {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 1.5em;
   color: black;
-  padding-left: 10px; }
+  padding-left: 10px;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .about_shows_info,
 .about_backend_info {
   padding: 10px 30px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 100;
   font-size: 0.95em;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 footer {
   background-color: #a757f2;
   width: 100%;
-  margin: 0 auto 30px auto; }
+  margin: 0 auto 30px auto;
+}
 
 .footer_title {
   margin-top: 0;
   padding-top: 30px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .about_contact_icons_div {
   margin: 0 auto;
   padding-bottom: 30px;
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+}
 
 .about_contact_icon {
   height: 50px;
-  width: 50px; }
+  width: 50px;
+}
 
 .clearfix {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 /*****************************************************************
 Media Queries
 *****************************************************************/
 @media screen and (min-width: 550px) {
   #main {
-    display: none; }
+    display: none;
+  }
 
   header {
-    display: block; }
+    display: block;
+  }
 
   .about_picture {
     width: 55%;
     float: left;
-    padding: 20px; }
+    padding: 20px;
+  }
 
   .about_bio_text {
     margin-bottom: 0;
-    padding-bottom: 20px; } }
+    padding-bottom: 20px;
+  }
+}
+
 @media screen and (min-width: 800px) {
   #main {
-    display: none; }
+    display: none;
+  }
 
   #about_me {
-    display: block; }
+    display: block;
+  }
 
   .about_bio_text,
   .about_shows_info,
   .about_backend_info {
-    font-size: 1.5em; }
+    font-size: 1.5em;
+  }
 
   .about_contact_icon {
     height: 100px;
-    width: 100px; } }
+    width: 100px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   #main {
-    display: block; }
+    display: block;
+  }
 
   #about_me {
     display: none;
     width: 1000px;
     margin: 30px auto;
-    z-index: 1000; }
+    z-index: 1000;
+  }
 
   header {
-    border-top-right-radius: 40px; }
+    border-top-right-radius: 40px;
+  }
 
   footer {
-    border-bottom-left-radius: 40px; }
+    border-bottom-left-radius: 40px;
+  }
 
   #x_button {
     display: block;
@@ -174,9 +213,10 @@ Media Queries
     top: 7;
     margin-left: 1100px;
     height: 30px;
-    width: 30px; }
+    width: 30px;
+  }
 
-     /*****************************************************************
+  /*****************************************************************
 Desk Elements
 *****************************************************************/
   /*****************************************************************
@@ -186,10 +226,12 @@ Desk Elements
     width: 600px;
     position: fixed;
     top: 25px;
-    right: 50px; }
+    right: 50px;
+  }
 
   .whiteboard_img {
-    width: 100%; }
+    width: 100%;
+  }
 
   /*****************************************************************
   Posters
@@ -198,10 +240,12 @@ Desk Elements
     width: 400px;
     position: fixed;
     top: 25px;
-    margin-left: 100px; }
+    margin-left: 100px;
+  }
 
   .posters_img {
-    width: 100%; }
+    width: 100%;
+  }
 
   /*****************************************************************
   Desk
@@ -213,10 +257,12 @@ Desk Elements
     position: fixed;
     bottom: 0;
     margin-left: 100px;
-    z-index: 100; }
+    z-index: 100;
+  }
 
   .desk_img {
-    width: 100%; }
+    width: 100%;
+  }
 
   /*****************************************************************
   Computer
@@ -227,10 +273,12 @@ Desk Elements
     position: fixed;
     bottom: 43px;
     margin-left: 650px;
-    z-index: 100; }
+    z-index: 100;
+  }
 
   .computer_img {
-    width: 100%; }
+    width: 100%;
+  }
 
   /******************
   SCREEN
@@ -240,7 +288,8 @@ Desk Elements
     position: fixed;
     bottom: 469px;
     z-index: 1000;
-    margin-left: 17px; }
+    margin-left: 17px;
+  }
 
   .bar {
     height: 16px;
@@ -248,7 +297,8 @@ Desk Elements
     bottom: 464px;
     margin-left: 15px;
     width: 420px;
-    background: lightgrey; }
+    background: lightgrey;
+  }
 
   .circle {
     width: 7px;
@@ -256,17 +306,21 @@ Desk Elements
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
-    margin-right: 4px; }
+    margin-right: 4px;
+  }
 
   .red {
     background: red;
-    cursor: pointer; }
+    cursor: pointer;
+  }
 
   .yellow {
-    background: yellow; }
+    background: yellow;
+  }
 
   .green {
-    background: green; }
+    background: green;
+  }
 
   .screen_content {
     z-index: 100;
@@ -276,49 +330,62 @@ Desk Elements
     bottom: 235px;
     overflow-y: scroll;
     margin-left: 15px;
-    border-radius: 2px; }
+    border-radius: 2px;
+  }
 
   ::-webkit-scrollbar {
     -webkit-appearance: none;
-    width: 10px; }
+    width: 10px;
+  }
 
   ::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background-color: #252525;
-    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5); }
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+  }
 
   ol {
     margin-top: 0;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+  }
 
   .info {
     font-family: Inconsolata, monospace;
-    background: #3c3f42; }
+    background: #3c3f42;
+  }
 
   .bracket {
-    color: lightblue; }
+    color: lightblue;
+  }
 
   .code_text {
-    color: #ff5d00; }
+    color: #ff5d00;
+  }
 
   .string_text {
-    color: white; }
+    color: white;
+  }
 
   .attribute {
-    color: #ffbb00; }
+    color: #ffbb00;
+  }
 
   .attribute_text {
-    color: #21773e; }
+    color: #21773e;
+  }
 
   a {
     text-decoration: none;
-    color: #d781f9; }
+    color: #d781f9;
+  }
 
   #email {
-    color: #21773e; }
+    color: #21773e;
+  }
 
   #about_me_link {
-    cursor: pointer; }
+    cursor: pointer;
+  }
 
   /******************
   Youtube
@@ -327,10 +394,12 @@ Desk Elements
     position: fixed;
     z-index: 10000;
     bottom: 235px;
-    margin-left: 15px; }
+    margin-left: 15px;
+  }
 
   .hidden {
-    display: none; }
+    display: none;
+  }
 
   /*****************************************************************
   Speakers
@@ -340,20 +409,24 @@ Desk Elements
     height: 275px;
     position: fixed;
     bottom: 38px;
-    margin-left: 540px; }
+    margin-left: 540px;
+  }
 
   .speaker_left_div:hover {
-    cursor: pointer; }
+    cursor: pointer;
+  }
 
   .speaker_right_div {
     width: 100px;
     height: 275px;
     position: fixed;
     bottom: 38px;
-    margin-left: 1110px; }
+    margin-left: 1110px;
+  }
 
   .speaker_img {
-    width: 100%; }
+    width: 100%;
+  }
 
   /*****************************************************************
   Lamp
@@ -363,15 +436,18 @@ Desk Elements
     height: 500px;
     position: fixed;
     bottom: 66px;
-    margin-left: 170px; }
+    margin-left: 170px;
+  }
 
   .lamp_img {
     width: 100%;
     transform: scaleX(-1);
-    z-index: 103; }
+    z-index: 103;
+  }
 
   .lamp_img:hover {
-    cursor: pointer; }
+    cursor: pointer;
+  }
 
   .lamp_light {
     position: absolute;
@@ -380,7 +456,11 @@ Desk Elements
     top: 79px;
     width: 800px;
     height: 340px;
-    background: radial-gradient(circle at top left, rgba(255, 232, 28, 0.7) 3%, rgba(255, 232, 28, 0.2) 20%, rgba(255, 232, 28, 0) 95%); }
+    background: radial-gradient(circle at top left,
+        rgba(255, 232, 28, 0.7) 3%,
+        rgba(255, 232, 28, 0.2) 20%,
+        rgba(255, 232, 28, 0) 95%);
+  }
 
   /*****************************************************************
   Clock
@@ -389,10 +469,12 @@ Desk Elements
     width: 150px;
     position: fixed;
     bottom: 169px;
-    margin-left: 360px; }
+    margin-left: 360px;
+  }
 
   .clock_img {
-    width: 100%; }
+    width: 100%;
+  }
 
   /******************
   Clock Numbers
@@ -403,7 +485,8 @@ Desk Elements
     position: fixed;
     width: 130px;
     height: 90px;
-    bottom: 160px; }
+    bottom: 160px;
+  }
 
   .flip {
     height: 66px;
@@ -411,7 +494,8 @@ Desk Elements
     background-color: #484244;
     border-radius: 10%;
     bottom: 188px;
-    position: fixed; }
+    position: fixed;
+  }
 
   .time {
     color: white;
@@ -419,7 +503,8 @@ Desk Elements
     font-size: 3em;
     position: fixed;
     bottom: 193px;
-    margin-left: 1px; }
+    margin-left: 1px;
+  }
 
   .line {
     z-index: 1000;
@@ -428,21 +513,33 @@ Desk Elements
     background-color: #484244;
     position: absolute;
     bottom: 30px;
-    float: left; }
+    float: left;
+  }
 
   .minute-ones {
-    margin-left: 108px; }
+    margin-left: 108px;
+  }
 
   .minute-tens {
-    margin-left: 78px; }
+    margin-left: 78px;
+  }
 
   .hour-ones {
-    margin-left: 43px; }
+    margin-left: 43px;
+  }
 
   .hour-tens {
-    margin-left: 12px; }
+    margin-left: 12px;
+  }
 
   .hidden {
-    display: none; } }
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
+
+/* SHIT PAGE */
+a {
+  color: black;
+}

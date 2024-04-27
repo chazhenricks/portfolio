@@ -55,61 +55,9 @@ var screenHTML = `
                     <span class="bracket"><</span>
                     <span class="code_text">h1</span>
                     <span class="bracket">></span>
-                    <span id="about_me_link" class="string_text">Learn More About Me!</span>
+                    <a href="../shit" class="string_text">Some Shit I've Written</span>
                     <span class="bracket">< /</span>
                     <span class="code_text">h1</span>
-                    <span class="bracket">></span>
-                </li>
-                <li>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <span class="bracket"><</span>
-                <span class="code_text">h2</span>
-                <span class="bracket">></span>
-                <span class="string_text">Here are some personal projects</span>
-                <span class="bracket">< /</span>
-                <span class="code_text">h2</span>
-                <span class="bracket">></span>
-            </li>
-                <li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <span class="bracket"><</span>
-                    <span class="code_text">ul</span>
-                    <span class="bracket">></span>
-                </li>
-                <li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span class="bracket"><</span>
-                    <span class="code_text">li</span>
-                    <span class="bracket">></span>
-                    <a href="https://chazhenricks.github.io/frontend-capstone/#!/" target="_blank" class="link_text">Shows Around</a>
-                    <span class="bracket">< /</span>
-                    <span class="code_text">li</span>
-                    <span class="bracket">></span>
-                </li>
-                <li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span class="bracket"><</span>
-                    <span class="code_text">li</span>
-                    <span class="bracket">></span>
-                    <a href="https://github.com/chazhenricks/Design-Hub" class="link_text">Backend Capstone</a>
-                    <span class="bracket">< /</span>
-                    <span class="code_text">li</span>
-                    <span class="bracket">></span>
-                </li>
-                <li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span class="bracket"><</span>
-                    <span class="code_text">li</span>
-                    <span class="bracket">></span>
-                    <a href="https://chazhenricks.github.io/ng-todo-demo/#!/" target="_blank" class="link_text">To Do List</a>
-                    <span class="bracket">< /</span>
-                    <span class="code_text">li</span>
-                    <span class="bracket">></span>
-                </li>
-                <li>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <span class="bracket">< /</span>
-                    <span class="code_text">ul</span>
                     <span class="bracket">></span>
                 </li>
                 <li>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chaz Henricks</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:100,400"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="about_header_text">
+        Adding things to this site after 4 years
+      </h1>
+    </header>
+    <section class="about">
+      <h2>Its been forever since I've updated this site.</h2>
+      <p>
+        I want to do that more often. There is a lot of stuff I know how to do -
+        and theres also a l lot of stuff I think I know how to do, but probably
+        don't because I've never taught it.
+      </p>
+      <p>
+        So I spent an afternoon getting all the credentials and logins and stuff
+        set up so I can make updates here. The process was more straightforward
+        than I thought.
+      </p>
+
+      <h3>Domain Name Registrars and Hosting Servers</h3>
+      <p>
+        I bought the domain name from Namecheap and use a Digital Ocean droplet
+        to host it. I needed to make sure I had logins to both places to I could
+        make any updates.
+      </p>
+      <p>
+        Namecheap is the Domain Registrar. They are the broker that you purchase
+        a domain name from and are the intermediary that tells the big Dot Com
+        Database in the sky that "chazhenricks.com" maps to a server address
+        somewhere. Because most of the access to the Internet is controlled by
+        <a href="https://www.icann.org/"> three kids in a trenchcoat </a> - we
+        need an intermediary to act on our behalf to tell The Internet that a
+        new website exists. In reality, The Internet is just a big Database and
+        we need to pay someone to get a new record added to it.
+      </p>
+      <p>
+        The more important thing I needed to be able to do is ssh into the
+        hosting server to make some updates. The hosting server is some other
+        computer that is accessable to the intrnet via an IP address. When you
+        "ssh" into a server, you are connecting to it remotely from your
+        computer. So I can access the terminal from that computer via the
+        terminal on my computer. The way we can do this without having to
+        constantly type in passwords is by creating an "ssh key" - which is a
+        public/private pair of Computer Science Wizardry. You can think of it
+        like two sides of a BFF necklace. You have one side that no one is
+        allowed to see. You give the other side to this remote server. Then you
+        tell the server "dont let anyone in here if they dont have my side of
+        the BFF necklace." This effectively makes it very hard for someone thats
+        not you to login to the server.
+      </p>
+      <p>
+        The last part was to update the website that was already being served. I
+        made this when I was still just learning about web development - so its
+        all pretty much a basic HTML/CSS site. Theres not a framework or
+        anything (though I admit that there is a little bit of jQuery). I just
+        needed to add a section for writing, port my notes over to an HTML file,
+        add some anchor tags, and baby you got a stew goin again! I like the
+        idea of doing as much of this as possible with no frameworks.
+      </p>
+      <p>
+        I hope to keep a more regular log of "dumb shit I figured out so
+        hopefully we can be less dumb together" note on here as I fuck around
+        with webservers and other fun things.
+      </p>
+    </section>
+  </body>
+</html>
